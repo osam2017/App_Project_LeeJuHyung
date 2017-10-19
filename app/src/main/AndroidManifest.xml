@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Project"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User"
+            android:label="메인"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="회원가입" />
+        <activity
+            android:name=".Resetpwd"
+            android:label="비밀번호 변경" />
+        <activity
+            android:name=".AddOffice"
+            android:label="근무대 추가" />
+        <activity android:name=".BonBu" />
+        <activity android:name=".GubYang" />
+        <activity android:name=".JeongBi" />
+        <activity android:name=".MemberState"></activity>
+    </application>
+
+</manifest>
